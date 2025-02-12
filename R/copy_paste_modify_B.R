@@ -104,7 +104,7 @@ cv_tmin_plot <- ggplot(data=cv_avg_tmin, aes(x=year, y=tmin)) +
   annotate('text', x=1925, y=50, label=cv_slope_text, size=5, hjust=0) +
   theme_bw(14)
 
-png(filename='chula_vista_tmin.png')
+png(filename='plots/original/chula_vista_tmin.png')
   cv_tmin_plot
 dev.off()
 
@@ -120,7 +120,7 @@ y_tmin_plot <- ggplot(data=y_avg_tmin, aes(x=year, y=tmin)) +
   annotate('text', x=1925, y=50, label=y_slope_text, size=5, hjust=0) +
   theme_bw(14)
 
-png(filename='yosemite_tmin.png')
+png(filename='plots/original/yosemite_tmin.png')
 y_tmin_plot
 dev.off()
 
@@ -136,7 +136,7 @@ nb_tmin_plot <- ggplot(data=nb_avg_tmin, aes(x=year, y=tmin)) +
   annotate('text', x=1925, y=50, label=nb_slope_text, size=5, hjust=0) +
   theme_bw(14)
 
-png(filename='north_bay_tmin.png')
+png(filename='plots/original/north_bay_tmin.png')
 nb_tmin_plot
 dev.off()
 
@@ -152,7 +152,7 @@ t_tmin_plot <- ggplot(data=t_avg_tmin, aes(x=year, y=tmin)) +
   annotate('text', x=1925, y=50, label=t_slope_text, size=5, hjust=0) +
   theme_bw(14)
 
-png(filename='tulare_tmin.png')
+png(filename='plots/original/tulare_tmin.png')
 t_tmin_plot
 dev.off()
 
@@ -168,7 +168,7 @@ rb_tmin_plot <- ggplot(data=rb_avg_tmin, aes(x=year, y=tmin)) +
   annotate('text', x=1925, y=50, label=rb_slope_text, size=5, hjust=0) +
   theme_bw(14)
 
-png(filename='red_bluff_tmin.png')
+png(filename='plots/original/red_bluff_tmin.png')
 rb_tmin_plot
 dev.off()
 
@@ -185,6 +185,6 @@ sac_tmin_plot <- ggplot(data=sac_avg_tmin, aes(x=year, y=tmin)) +
   annotate('text', x=1925, y=50, label=sac_slope_text, size=5, hjust=0) +
   theme_bw(14)
 
-png(filename='sacramento_tmin.png')
+png(filename='plots/original/sacramento_tmin.png')
 sac_tmin_plot
 dev.off()
