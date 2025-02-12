@@ -1,7 +1,8 @@
 #project specific
 *.html
 *api*
-plots/
+plots/*
+data/3877365.csv
 
 # History files
 .Rhistory
