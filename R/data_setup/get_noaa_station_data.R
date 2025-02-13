@@ -1,7 +1,9 @@
 
 # Description -------------------------------------------------------------
 
-#' Download data from NOAA's climate data API
+#' Identify locations to use with NOAA's climate data API
+#' 
+#' Get API Key:
 #' https://www.ncdc.noaa.gov/cdo-web/token
 #' 
 
