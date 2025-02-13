@@ -37,6 +37,8 @@ Tutorial on how to write your own functions in R.
     
     b. Insert parameter values where applicable.
   
+### Finishing Steps
+
 7. Test function.
 
     a. Restart Session before testing.
