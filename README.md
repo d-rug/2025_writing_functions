@@ -32,17 +32,18 @@ Tutorial on how to write your own functions in R.
       a. Include descriptive parameter names. 
       
 6. Migrate code into function skeleton.
-
-    a. Replace variable names with parameter values
     
-    b. Rename variables created in function to differ from variables in your
-    regular
+    a. Don't be afraid to copy/paste from original code 
+    
+    b. Insert parameter values where applicable.
   
 7. Test function.
 
-    a. `debug()`, `debugonce()`, `browser()`, or `options(error=recover)`
+    a. Restart Session before testing.
     
-    b. Implement error messages and error catching: `stop()` and `tryCatch()`
+    b. `debug()`, `debugonce()`, `browser()`, or `options(error=recover)`
+    
+    c. Implement defensive programming, ex. error messages using `stop()`
   
 8. Document function!
 
