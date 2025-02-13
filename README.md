@@ -1,7 +1,32 @@
 # Writing Your Own Functions (in R)
-Tutorial on how to write your own functions in R.
+
+Tutorial on how to write your own functions in R, [Google Slides][slides].
+
+[slides]: https://docs.google.com/presentation/d/1biJUPsf3farPX9GDToQ8CnAlo5BRAxImaqBYgLJ5CcI/edit?usp=sharing
+
+```
+data/noaa       Temperature data
+plots/          Where we will store our plot outpus
+R/              R source code
+└── data_setup  code for downloading and splitting the data
+.gitignore      Paths git should ignore
+README.md       This file
+
+```
+
+## File Descriptions
+
+* `copy_paste_modify_A.R` - one way someone might run the same analysis multiple
+  times by copying and pasting the code. 
+
+* `copy_paste_modify_B.R` - Another way someone might organize their code if 
+  they copy and pasted their analysis multiple times.
+
+* `function.R` - an example of how to organize the code in the other two files
+  using a function
 
 ## Step by Step Instructions
+
 ### Non-Coding Steps
 
 1. What tasks do you want to accomplish with this function? (scope)
