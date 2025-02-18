@@ -16,14 +16,13 @@ README.md       This file
 
 ## File Descriptions
 
-* `copy_paste_modify_A.R` - one way someone might run the same analysis multiple
-  times by copying and pasting the code. 
+* `copy_paste_modify_A.R` - one way someone might run the same analysis multiple times by copying and pasting the code. 
 
 * `copy_paste_modify_B.R` - Another way someone might organize their code if 
   they copy and pasted their analysis multiple times.
 
 * `function.R` - an example of how to organize the code in the other two files
-  using a function
+  using a function.
 
 ## Step by Step Instructions
 
@@ -199,7 +198,7 @@ something like `head(df)`. If you want to turn this functionality off, run
 may want to use `options(error=recover)` instead. This gives you the option of
 which function you want to "jump into". 
 
-[rpack]: https://r-pkgs.org/
+[rpacks]: https://r-pkgs.org/
 [devtools]: https://devtools.r-lib.org/
 [oo]: https://adv-r.hadley.nz/oo.html
 [advr]: https://adv-r.hadley.nz/index.html
